@@ -1,0 +1,10 @@
+canvas{
+	display: block;
+	margin:50px auto;
+	box-shadow: -2px -2px 2px #efefef, 5px 5px 5px #b9b9b9;
+	           /*水平 垂直 模糊 颜色*/
+
+}
+h1{font-size: 20px;text-align:center;text-shadow: 2px 2px 2px #9c9c9c;}
+/*.box{height: 200px;width: 120px;}
+.box:hover{box-shadow: 3px 3px 3px #ccc, -3px -3px 3px #ccc;}*/

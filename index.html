@@ -9,8 +9,29 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-<h1>五子棋</h1>
-<canvas id="chess" width="450" height="450">你的浏览器不支持canvas。</canvas>
+<h1>五子棋</h1><button id="restart" >重新开始</button>
+<div id="choose">
+<p>请选择游戏模式</p>
+<div class="link open">
+<a href="#" class="button" id="openAI" data="人机对战">
+<span class="line linetop"></span>
+<span class="line lineright"></span>
+<span class="line linebottom"></span>
+<span class="line lineleft"></span>
+人机对战</a>
+</div>
+<div class="link close">
+<a href="#" class="button" id="closeAI" data="单人模式">
+<span class="line linetop"></span>
+<span class="line lineright"></span>
+<span class="line linebottom"></span>
+<span class="line lineleft"></span>
+单人游戏</a>
+</div>
+</div>
+<canvas id="chess" width="450" height="450">
+你的浏览器不支持canvas。</canvas>
+
 <!-- <div class="box"><h1>一个小方框</h1></div> -->
 <script type="text/javascript" src="fivechess.js"></script>
 <script type="text/javascript" src="wins.js"></script>
